@@ -27,8 +27,3 @@ java-alpine-openjdk11-jre:latest \
  }
  }
  }
- #stage("Test") {
- #steps {
-# sh "./mvnw verify"
-# }
-# }
