@@ -32,5 +32,3 @@ java-alpine-openjdk11-jre:latest \
  sh "./mvnw verify"
  }
  }
- }
-}
