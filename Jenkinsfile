@@ -2,7 +2,7 @@ pipeline {
  agent {
  node { label "maven" }
  }
-environment { QUAY = credentials('karthy') }
+environment { QUAY = credentials('QUAY_USER') }
  stages {
 stage("Build & Push Image") {
  steps {
